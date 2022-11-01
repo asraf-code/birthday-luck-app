@@ -9,9 +9,18 @@
 
 body {
     margin-top: 10rem;
-    background-color: var(--primary-Bg);
+    
     color: var(--primary-text);
     font-family: 'Noto Sans', sans-serif;
+}
+
+#main {
+    border: 3px solid var(--primary-Bg);
+    border-radius: 0.5rem;
+    padding: 7rem 0rem;
+    width: 80%;
+    margin: auto;
+    height: 500px;
 }
 
 h1 {
@@ -81,6 +90,12 @@ input {
     border-radius: 0.3rem;
     font-weight: bolder;
     font-size: large;
+}
+
+#output-result {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 25px;
 }
 
 
