@@ -11,7 +11,7 @@ function checkDobIsLucky() {
     if (sum&&dob) {
         compareValues(sum, luckyNumber);
     } else {
-        outputResult.innerText = "Plese enter values to check 😡"
+        outputResult.innerText = "Please enter values to check 😡"
     }
     
 }
