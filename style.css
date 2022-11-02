@@ -35,11 +35,30 @@ body {
     display: block;
     
   }
+
+#btn-back {
+    background: var(--primary-text);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    
+}
   
   nav {
     margin-bottom: 3rem;
     max-width: 46vh;
   }
+
+#privacy-nav {
+    margin-bottom: 8rem;
+    max-width: 5vh;
+}
 
 h1 {
     text-align: center;
@@ -117,3 +136,25 @@ input {
 }
 
 
+#policy-page {
+    padding-top: 10rem;
+    display: block;
+    box-sizing: border-box;
+    max-width: 40%;
+    margin: auto;
+}
+
+#policy-text {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 3rem 0rem;
+}
+
+.policy-sec {
+    margin: 2rem 0rem;
+}
+
+#privacy-foot {
+    margin-top: 11rem;
+    position: relative;
+}
