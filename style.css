@@ -91,6 +91,7 @@ ul {
 
 a, img, li {
     display: inline;
+    text-decoration: none;
 }
 
 img {
@@ -155,6 +156,6 @@ input {
 }
 
 #privacy-foot {
-    margin-top: 11rem;
+    margin-top: 17rem;
     position: relative;
 }
